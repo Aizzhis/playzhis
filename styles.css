@@ -1,0 +1,114 @@
+:root {
+  --cor1: #2f615e;
+  --cor2: #e8dbad;
+  --cor3: #f7f4f0;
+  --cor5: #c9b180;
+  --cor6: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: 'Nanum Pen Script', cursive;
+  background-color: #c9b180;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--cor1);
+  height: 140px;
+}
+
+nav {
+  background-color: var(--cor2);
+  height: 60px;
+}
+
+.menu {
+  position: relative;
+  top: 14px;
+  font-size: 25px;
+  margin-left: 20px;
+  padding: 10px;
+  color: var(--cor6);
+  text-decoration: 0;
+}
+
+.menu:hover {
+  color: var(--cor3);
+}
+
+.titulo {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: var(--cor3);
+}
+
+.principal {
+  height: 200vh;
+  text-align: center;
+  font-size: larger;
+  color: var(--cor3);
+  background-color: #c9b180;
+  /* margin: 40px; */
+}
+
+.cardsprincipal {
+  min-height: 100vh;
+  text-align: center;
+}
+
+footer {
+  background-color: #2f615e;
+  color: #c9b180;
+  text-align: center;
+  height: 200px;
+}
+
+.textorodape {
+  position: relative;
+  top: 80px;
+  background-color: #2f615e;
+  height: 140px;
+}
+
+.card {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+  background-color: var(--cor2);
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+}
+
+.imgcard {
+  position: relative;
+  top: 20px;
+  height: 200px;
+}
+
+.textocard {
+  position: relative;
+  top: 20px;
+  color: var(--cor6);
+}
+
+.canva {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+  background-color: var(--cor2);
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+
+}
+
+.spot {
+  
+  text-align: center;
+}
